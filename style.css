@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Raleway:wght@600&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Montserrat:wght@200;400;600&family=Raleway:wght@600&family=Source+Sans+Pro&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: rgb(241, 236, 236);
+}
+.main-nav {
+  margin-left: 90px;
+  margin-right: 0px;
+  margin-top: -700px;
+  top: 5px;
+  display: grid;
+  grid-template-columns: auto 700px 600px;
+}
+.nav-logo > img {
+  width: 100px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 80px;
+  list-style: none;
+}
+.link-item-active {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  color: #000;
+  padding-left: 15px;
+}
+
+.link-item {
+  text-decoration: none;
+  font-family: "Raleway";
+  color: rgba(0, 0, 0, 0.551);
+  font-size: 14px;
+  padding-left: 15px;
+}
+.main-img {
+  width: 150px;
+}
+.main-img > img {
+  position: relative;
+  width: 550px;
+  height: 100vh;
+  z-index: -1;
+}
+
+hr {
+  background-color: rgb(5, 0, 9);
+  width: 43%;
+  margin-left: 350px;
+  margin-top: 10px;
+  height: 1px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.heading-content-h1 > h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(241, 236, 236);
+  font-size: 125px;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  /* -webkit-text-fill-color: rgba(0, 128, 0, 0.767);
+  text-transform: ; */
+  position: absolute;
+  left: 620px;
+  top: 20px;
+}
+.span1 {
+  color: rgba(98, 92, 92, 0.61);
+  position: relative;
+  left: 140px;
+  bottom: 20px;
+}
+
+.heading-content-h3 {
+  font-family: "Raleway";
+  font-size: 28px;
+  color: rgba(113, 110, 110, 0.74);
+  position: absolute;
+  right: 180px;
+  top: 200px;
+}
+.heading-button > button {
+  font-family: "Raleway";
+  padding: 20px 60px;
+  font-size: 16px;
+  background-color: rgb(58, 55, 55);
+  color: #fff;
+  border: none;
+  position: absolute;
+  right: 60px;
+  bottom: 300px;
+  font-size: 20px;
+}
+
+.social {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 80px;
+  gap: 40px;
+}
+.mail > img {
+  width: 30px;
+}
+
+.name-topics {
+  font-family: "Raleway";
+  position: absolute;
+  bottom: 20px;
+  left: 620px;
+  font-size: 21px;
+  line-height: 2.4;
+}
+
+.circle {
+  width: 2px;
+  height: 280px;
+  background-color: rgb(81, 78, 78);
+  position: absolute;
+  bottom: -19px;
+  left: 600px;
+  z-index: -1;
+  bottom: -35px;
+}
+.circle1 {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(30, 29, 29);
+  border: solid 0.5px rgb(68, 66, 66);
+  border-radius: 50%;
+  position: absolute;
+  top: -12px;
+  left: calc(-280%);
+}
+.circle2 {
+  width: 11px;
+  height: 11px;
+  background-color: rgb(68, 66, 66);
+  border: solid 0.5px rgb(73, 72, 72);
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+  left: calc(-280%);
+}
+.circle3 {
+  width: 11px;
+  height: 11px;
+  background-color: rgb(68, 66, 66);
+  border: solid 0.5px rgb(68, 66, 66);
+  border-radius: 50%;
+  position: absolute;
+  top: 95px;
+  left: calc(-280%);
+  z-index: -1;
+}
+.circle4 {
+  width: 11px;
+  height: 11px;
+  background-color: rgb(68, 66, 66);
+  border: solid 0.5px rgb(68, 66, 66);
+  border-radius: 50%;
+  position: absolute;
+  top: 145px;
+  left: calc(-280%);
+  z-index: -1;
+}
+.circle5 {
+  width: 11px;
+  height: 11px;
+  background-color: rgb(68, 66, 66);
+  border: solid 0.5px rgb(68, 66, 66);
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: calc(-280%);
+  z-index: -1;
+}
+
+.photography {
+  color: rgb(136, 131, 131);
+}
+
+.commas {
+  position: absolute;
+  bottom: 165px;
+  right: 630px;
+  font-size: 40px;
+  font-family: "BIZ UDPMincho";
+  color: rgb(68, 66, 66);
+}
+.container2 {
+  height: 90vh;
+}
+
+.parafrapg-last {
+  font-family: "Raleway";
+  position: absolute;
+  bottom: 165px;
+  right: 340px;
+  height: 40px;
+}
+
+.dance-img {
+  width: 400px;
+  height: auto;
+
+  position: absolute;
+  bottom: 285px;
+  left: 850px;
+  bottom: -130px;
+}
+
+.last-arrow {
+  position: absolute;
+  bottom: 65px;
+  right: 80px;
+  height: 2px;
+}
+.last-arrow > img {
+  width: 40px;
+}
+
+@media (max-width: 1480px) {
+  .main-img {
+    opacity: 0.1;
+  }
+  .heading-content-h1 > h1 {
+    font-size: 80px;
+  }
+  .name-topics {
+    left: 146px;
+  }
+  .circle {
+    left: 120px;
+  }
+  .dance-img {
+    left: 400px;
+  }
+  .nav-items {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .heading-content-h1 > h1 {
+    font-size: 180px;
+
+    left: 230px;
+  }
+  .social {
+    left: 20px;
+  }
+  .heading-content-h3 {
+    left: 100px;
+  }
+  .heading-button {
+    position: absolute;
+    left: 20px;
+  }
+  .dance-img {
+    position: absolute;
+    top: 380px;
+    left: 130px;
+    z-index: -1;
+  }
+  .last-arrow > img {
+    width: 40px;
+    left: 80px;
+  }
+  .hr {
+    display: none;
+  }
+  .last-arrow {
+    left: 550px;
+  }
+}
+
+@media (max-width: 920px) {
+  .heading-content-h1 > h1 {
+    font-size: 100px;
+
+    left: 80px;
+  }
+
+  .last-arrow {
+    bottom: 100px;
+    left: 50px;
+  }
+  .parafrapg-last {
+    top: 280px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 560px) {
+  .heading-content-h1 > h1 {
+    font-size: 80px;
+
+    left: 80px;
+  }
+  .dance-img {
+    position: absolute;
+    top: 380px;
+    left: 70px;
+    z-index: -1;
+    opacity: 0.2;
+  }
+  .circle {
+    display: none;
+  }
+  .parafrapg-last {
+    top: 300px;
+    width: 80%;
+    color: rgb(204, 25, 123);
+  }
+  .main-img > img {
+    width: 480px;
+  }
+  .name-topics {
+    color: rgb(204, 25, 123);
+  }
+  .photography {
+    color: rgb(204, 25, 123);
+  }
+  .heading-content-h3 {
+    color: rgb(204, 25, 123);
+  }
+}
