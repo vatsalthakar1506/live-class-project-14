@@ -102,7 +102,7 @@ hr {
   border: none;
   position: absolute;
   right: 60px;
-  bottom: 300px;
+  bottom: 276px;
   font-size: 20px;
 }
 
@@ -234,7 +234,7 @@ hr {
   width: 40px;
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1380px) {
   .main-img {
     opacity: 0.1;
   }
